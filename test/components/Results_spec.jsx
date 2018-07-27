@@ -11,6 +11,7 @@ import {expect} from 'chai';
 import Results from '../../src/components/Results';
 
 describe('Results', () => {
+  
   it('renders entries with vote count or zero', () => {
     const pair = List.of('Trainspotting', '28 Days Later');
     const tally = Map({'Trainspotting': 5});
